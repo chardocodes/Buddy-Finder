@@ -1,0 +1,12 @@
+body {
+	background-color: blue;
+
+}
+
+.jumbotron {
+	margin-top: 10%
+}
+
+.fa-check-square, .fa-list-alt {
+	margin-right: 10px
+}
