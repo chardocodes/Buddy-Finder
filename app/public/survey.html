@@ -2,35 +2,35 @@
 <html>
 <html lang="en">
 <meta charset="UTF-8">
+
 <head>
-	<title>FriendFinder Survey</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<title>Buddy Finder Compatibility Match</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+
 </head>
 
-<body alt="Chain of paper friends in circle">
+<body>
+		<div style="background-image: url('https://i.pinimg.com/originals/87/0b/06/870b06ba00f1e387708e32ba1019a6bc.jpg')"></div>
 	<div class="container">
 		<div class="jumbotron">
 
-			<h1>Buddy Finder Survey</h1>
+			<h1>Friend Finder Survey</h1>
 			<hr>
-			<h4>Ten questions to get to know you.</h4>
-			<h4>Then find a buddy who's compatible!</h4>
+			<h4>Answer a few basic questions.</h4>
+			<h4>Then find the friend with the greatest compatibility!</h4>
 			<hr>
-			
+
 			<form>
 				<div class="form-group">
 					<label for="userName">Your Name (Required)</label>
 					<input type="text" class="form-control" id="friendName" placeholder="Enter Your Name">
 				</div>
-				<!-- <div class="form-group">
-					<label for="exampleInputPassword1">Link to Photo Image (Required)</label>
-					<input type="password" class="form-control" id="exampleInputPassword1 friendImg">
-				</div> -->
+
 				<div class="input-group mb-3">
 					<div class="custom-file">
 						<input type="file" class="custom-file-input" id="inputGroupFile02 ">
@@ -42,7 +42,8 @@
 				</div>
 				<hr>
 
-				<h5>Instructions: Read each question then answer it by choosing a number between 1 (Strongly Disagree) and 5 (Strongly Agree) from the dropdown.</h5>
+				<h5>Instructions: Read the question then answer by choosing a number between 1 (Strongly Disagree) and 5
+					(Strongly Agree) from the dropdown.</h5>
 				<br>
 				<div class="form-group">
 					<label for="question1">Question 1: Do you like diet sodas?</label>
@@ -67,7 +68,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question3">Question 3: Do you spend a lot time recreating outdoors?</label>
+					<label for="question3">Question 3: Do you like recreating outdoors?</label>
 					<select class="form-control" id="question3">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -78,7 +79,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question4">Question 4: Are you a patient person?</label>
+					<label for="question4">Question 4: Do you like playing video games?</label>
 					<select class="form-control" id="question4">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -89,7 +90,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question5">Question 5: Do you like spicy food?</label>
+					<label for="question5">Question 5: Would you consider yourself to be a patient person?</label>
 					<select class="form-control" id="question5">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -100,7 +101,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question6">Question 6: Are you a cat person?</label>
+					<label for="question6">Question 6: Do you like cats?</label>
 					<select class="form-control" id="question6">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -111,7 +112,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question7">Question 7: Do you sing in the shower?</label>
+					<label for="question7">Question 7: Do you like President Trump?</label>
 					<select class="form-control" id="question7">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -122,7 +123,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question8">Question 8: Do you like long walks on the sidewalk near the beach?</label>
+					<label for="question8">Question 8: Are you close with your family?</label>
 					<select class="form-control" id="question8">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -133,7 +134,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question9">Question 9: Are you close with your family?</label>
+					<label for="question9">Question 9: Have you ever traveled outside of the US?</label>
 					<select class="form-control" id="question9">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -144,7 +145,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="question10">Question 10: Have you traveled outside of the US?</label>
+					<label for="question10">Question 10: Do you have a bucket list?</label>
 					<select class="form-control" id="question10">
 						<option value>Select an option</option>
 						<option value=1>1 (Strongly Disagree)</option>
@@ -155,16 +156,18 @@
 					</select>
 				</div>
 				<br>
-				<button type="submit" class="btn btn-primary submit"><i class="far fa-check-square"></i> Submit Survey</button>
+				<button type="submit" class="btn btn-primary submit"><i class="far fa-check-square"></i> Submit
+					Survey</button>
 			</form>
 
 		</div>
 	</div>
-	
+
 	<footer>
 		<div class="container">
-       		<p><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/chardocodes/Buddy-Finder">GitHub Repo</a></p>
-     	</div>
+			<p><a href="/api/friends">API Friends Link</a> | <a
+					href="https://github.com/chardocodes/Buddy-Finder">GitHub Repo</a></p>
+		</div>
 	</footer>
 
 	<div class="modal" id="executeModal" tabindex="-1" role="dialog">
@@ -173,83 +176,84 @@
 				<div class="modal-header">
 					<h3 class="modal-title">Friend Match</h3>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
 				<div class="modal-body">
 					<h4>Your new friend's name is: <span id="bestName"></span></h4>
 					<img id="bestImg">
-					<!-- <p>Modal body text goes here.</p> -->
+
 				</div>
 				<div class="modal-footer">
-					<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
+
 </html>
 
 <script type="text/javascript">
-	$(".submit").on("click", function(event) {
+	$(".submit").on("click", function (event) {
 		//prevent it from erasing data before it is captured
 		event.preventDefault();
-		alert("Thank you for submitting to the Buddy Finder Survey");
+		alert("Thank you for submitting to the FriendFinder Survey");
 		// Here we grab the form elements
 		//the question values are returning undefined
 		var newFriend = {
-	        newName: $("#friendName").val().trim(),
-	        newImg: $("#friendImg").val().trim(),
-	       	scores: [
-	       		$("#question1").val(),
-	        	$("#question2").val(),
-	       		$("#question3").val(),
-	        	$("#question4").val(),
-	        	$("#question5").val(),
-	        	$("#question6").val(),
-	        	$("#question7").val(),
-	       		$("#question8").val(),
-	        	$("#question9").val(),
-	        	$("#question10").val()
-	        ]
-    };
-    //log newFriend captured from form
-    //console.log(newFriend);
-    //console.log(newFriend.newName);
-    //this is what I need to do the friend match up
-    //console.log(newFriend.scores);
-    //console.log(newFriend[0].score);
-    $.post("/api/friends", newFriend,
-        function(data) {
-	        // If a best friend match is found
-	        if (data) {
-	            //alert("Yay! You are part of the FriendFinder Network, please wait for your best friend match!");
-	            $('#bestName').text(data.name);
-          		$('#bestImg').attr("src", data.img).addClass("img-fluid");
-	            //show modal with best friend match
-	    		$('#executeModal').modal('toggle');        
-	  	   		//   $('#myModal').on('shown.bs.modal', function () {
+			newName: $("#friendName").val().trim(),
+			newImg: $("#friendImg").val().trim(),
+			scores: [
+				$("#question1").val(),
+				$("#question2").val(),
+				$("#question3").val(),
+				$("#question4").val(),
+				$("#question5").val(),
+				$("#question6").val(),
+				$("#question7").val(),
+				$("#question8").val(),
+				$("#question9").val(),
+				$("#question10").val()
+			]
+		};
+		//log newFriend captured from form
+		//console.log(newFriend);
+		//console.log(newFriend.newName);
+		//this is what I need to do the friend match up
+		//console.log(newFriend.scores);
+		//console.log(newFriend[0].score);
+		$.post("/api/friends", newFriend,
+			function (data) {
+				// If a best friend match is found
+				if (data) {
+					//alert("Yay! You are part of the FriendFinder Network, please wait for your best friend match!");
+					$('#bestName').text(data.name);
+					$('#bestImg').attr("src", data.img).addClass("img-fluid");
+					//show modal with best friend match
+					$('#executeModal').modal('toggle');
+					//   $('#myModal').on('shown.bs.modal', function () {
 					// 	$('#myInput').trigger('focus')
-				// })
-          	}
-          	// ?
-          	else {
-            	alert("Sorry we are having problems, please try again");
-          	}
-			// Clear the form when submitting
-			$("#friendName").val("");
-			$("#friendImg").val("");
-			$("#question1").val("");
-			$("#question2").val("");
-			$("#question3").val("");
-			$("#question4").val("");
-			$("#question5").val("");
-			$("#question6").val("");
-			$("#question7").val("");
-			$("#question8").val("");
-			$("#question9").val("");
-			$("#question10").val("");
-        });
+					// })
+				}
+				// ?
+				else {
+					alert("Sorry we are having problems, please try again");
+				}
+				// Clear the form when submitting
+				$("#friendName").val("");
+				$("#friendImg").val("");
+				$("#question1").val("");
+				$("#question2").val("");
+				$("#question3").val("");
+				$("#question4").val("");
+				$("#question5").val("");
+				$("#question6").val("");
+				$("#question7").val("");
+				$("#question8").val("");
+				$("#question9").val("");
+				$("#question10").val("");
+			});
 	});	
 </script>

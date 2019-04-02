@@ -1,6 +1,3 @@
-// Below data will hold all of the friends.
-// ===============================================================================
-//this is the only friends that is persistent data
 var friendsArray = [
     {
       friendName: "Rico",
@@ -35,8 +32,8 @@ var friendsArray = [
       ]
     },
     {
-        friendName: "Harris",
-      friendImg: "https://www.steadfastliving.com/wp-content/uploads/sites/488/2016/06/glamour-shots.jpg",
+        friendName: "John",
+      friendImg: "https://i.gifer.com/KgBM.gif",
       scores: [
           5,
           5,
